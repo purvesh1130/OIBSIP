@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500&family=Righteous&display=swap" rel="stylesheet">
+    <style>
+
+        body{
+
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            padding: 0%;
+            margin: 0%;   
+
+        }
+
+        *{
+         font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', sans-serif;
+        }
+
+ 
+     .container{
+
+        height: 85vh;
+        width: 75vw;
+        background-color: rgb(197, 53, 197);
+        box-sizing: border-box;
+        overflow: hidden;
+
+     }
+
+
+     .navbar{
+
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        color: white;
+
+     }
+
+     .nav2{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 19px;
+        margin: 12px;
+
+     }
+
+     .b{
+        padding: 20px;
+     }
+
+     .b:hover{
+
+      transform: scale(1.09);
+      text-decoration: underline;
+      text-decoration-color: black;
+      text-underline-offset: 6px;
+      color: yellow;
+      animation: move 1.4s ease-in-out 0s 1 backwards;
+     }
+
+     @keyframes move {
+
+      0%{
+
+         text-decoration: underline;
+         text-decoration-color: black;
+         text-underline-offset: 6px;
+
+      }
+
+
+      50%{
+         text-decoration: overline;
+         text-decoration-color: black;
+         text-underline-offset: 6px;
+
+
+      }
+
+      90%{
+
+         text-decoration: underline;
+         text-decoration-color: black;
+         text-underline-offset: 6px;
+
+
+      }
+
+     }
+
+     .head{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+        font-size: 45px;
+        color: yellow;
+     }
+
+     .head:hover{
+
+      transform: scale(1.06);
+      background-color: black;
+      border-radius: 12px;
+      animation: random 1s ease-in-out 0s 1 forwards;
+
+     }
+
+     @keyframes random {
+
+      0%{
+
+         transform: scale(1.06);
+      }
+
+      40%{
+
+         transform: scale(1.12);
+      }
+
+      
+
+      80%{
+
+         transform: scale(1.06);
+      }
+      
+      60%{
+
+         transform: scale(1);
+      }
+     }
+
+     .company{
+
+       padding: 1.6px 10px;
+        font-size: 21px;
+        margin-left: 16px;
+        color: yellow;
+
+     }
+
+     .company:hover{
+
+      position: relative;
+      animation: motion 4s ease-in 0s 1;
+     
+     }
+
+      @keyframes motion {
+
+         0%{
+
+            font-size: 26px;
+         }
+
+         30%{
+
+            font-size: 26px;
+            background-color: black;
+            border-start-end-radius: 12px;
+
+
+         }
+
+         50%{
+            font-size: 21px;
+            background-color: black;
+            border-start-end-radius: 18px;
+            border-end-start-radius: 18px;
+         }
+
+         80%{
+
+            background-color: none;
+         }
+
+         100%{
+            transform: scale(1);
+         }
+         
+      }
+
+
+     .v{
+
+      padding: 11px;
+      text-decoration: underline;
+      color: white;
+     }
+
+     .x1{
+
+      height: 380px;
+      width: 420px;
+      background-color: yellow;
+      transform: rotate(-45deg);
+      margin-top: -19%;
+      overflow: hidden;
+      margin-left: -21%;
+
+     }
+
+     .x2{
+
+      height: 380px;
+      width: 410px;
+      background-color: yellow;
+      transform: rotate(-46deg);
+      margin-top: -35%;
+      overflow: hidden;
+      margin-left: 85%;
+
+
+     }
+
+     .x3{
+
+      height: 7.5px;
+      width: 1800px;
+      background-color: yellow;
+      transform: rotate(45deg);
+      margin-left: -38.3%;
+
+
+     }
+
+     
+     .x4{
+
+height: 7px;
+width: 1800px;
+background-color: yellow;
+transform: rotate(44.5deg);
+margin-left: 15%;
+
+}
+
+.dots{
+
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 3.5px;
+margin: 16px;
+
+
+}
+
+.dots:hover{
+
+   transform: scale(1.09);
+   border: 2.7px solid black;
+   border-radius: 3px;
+}
+
+.c{
+
+   height: 15px;
+   width: 15px;
+   background-color: yellow;
+   border-radius: 3px;
+
+}
+
+.c:hover{
+
+   transform: scale(1.09);
+
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+       <div class="navbar">
+
+           <div class="nav1">
+
+            <div class="company">OASIS</div>
+           </div>
+
+           <div class="nav2">
+
+             <div class="b">HOME</div>
+             <div class="b">ABOUT</div>
+             <div class="b">SERVICES</div>
+             <div class="b">CONTACT</div>
+
+         <div class="dots">
+            <div class="c"></div>
+            <div class="c"></div>
+            <div class="c"></div>
+         </div>
+           </div>
+
+       
+
+       </div>
+
+        
+       <div class="head">
+        We make ideas<b class="v">Happen.</b>
+      </div>
+
+      
+      <div class="x1"></div>
+      <div class="x2"></div>
+      <div class="x3"></div>
+      <div class="x4"></div>
+    </div>
+
+
+
+</body>
+</html>

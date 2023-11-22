@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle&family=Inter:wght@500&family=Jost:wght@600&family=Palanquin+Dark&family=Poppins:wght@500&family=Righteous&display=swap" rel="stylesheet">
+
+    <style>
+
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: 1800px;
+        width: 1500px;
+        background-color: rgb(28, 28, 60);
+        display: flex;
+        justify-content: center;
+
+    }
+
+    *{
+        font-family: 'Dongle', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Palanquin Dark', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', sans-serif;
+
+color: white;
+    }
+
+    .container{
+
+        height: 70%;
+        width: 90%;
+        margin-top: 3%;
+
+    }
+
+    .header{
+
+        height: 4.8%;
+        width: 103%;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .websitename{
+
+        width: fit-content;
+        color: black;
+        background-color: aqua;
+        font-size: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 85% 100%, 0% 100%);
+
+    }
+
+    .websitename:hover{
+
+       animation: mmm 1.5s ease-in-out 0s 1;
+    }
+
+    @keyframes mmm {
+
+        0%{
+            transform: scale(1);
+        }
+
+        30%{
+            transform: scale(1.2);
+            background-color: black;
+            color: aqua;
+            text-decoration: underline;
+        }
+
+        60%{
+            
+            transform: translateY(-24px);
+
+        }
+        
+        80%{
+            transform: scale(1);
+        }
+    }
+
+    .nav1{
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul li{
+
+        padding: 0px 35px;
+        justify-content: center;
+        list-style: none;
+        font-size: 20px;
+
+    }
+
+    .content{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 45%;
+        width: 100%;
+        padding-left: 30px;
+        line-height: 1%;
+        border: 5px solid black;
+    }
+
+    .content1{
+
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        margin-left: 4%;
+     
+    }
+
+    .bio{
+
+display: flex;
+flex-direction: column;
+height: 150px;
+width: 480px;
+line-height: 95%;
+
+}
+
+.bio h4{
+
+    margin-left: 0%;
+    margin-top: -0.01px;
+    font-size: 29px;
+    font-weight: lighter;
+}
+
+.bio p{
+
+    font-size: 21px;
+    line-height: 130%;
+    margin-top: -2%;
+}
+
+    .content1 h3{
+
+        font-size: 39px;
+    }
+
+    .content h4{
+
+        font-size: 21px;
+        padding: -20px;
+    }
+
+    .content2{
+
+        height: 320px;
+        width: 280px;
+        margin-right: 20%;
+    }
+    .content2 img{
+
+        height: 320px;
+        width: 250px;
+        align-self: center;
+        BORDER: 3PX SOLID rgb(0, 254, 242);
+        margin-left: 65%;
+
+    }
+
+    .footer{
+
+        height: 40px;
+        width: 100.7%;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 30px;
+       
+    }
+
+    .footer .foot{
+        padding-left: 4%;
+    }
+
+    .foot h5{
+
+        font-size: 21px;
+        padding-top: -4%;
+    }
+
+
+    .social i{
+        font-size: 21px;
+        padding-left: 15px;
+    }
+
+    .buttons{
+        display: flex;
+        gap: 30px;
+        margin-left: 18%;
+        margin-top: 25%;
+
+    }
+
+    .button{
+
+        background-color: rgb(0, 254, 242);
+        color: black;
+        padding: 10px 12px;
+        font-size: 19px;
+        border-radius: 9px;
+   
+        
+    }
+
+    .button:hover{
+
+        transform: scale(1.15);
+        background-color: black;
+        border-radius: 9px;
+        border: 2px solid white;
+        color: white;
+      
+    }
+
+    .f{
+        font-size: 21px;
+        line-height: 130%;
+        margin-left: 5.6%;
+        margin-top: -3.8%;
+    }
+
+    .nav1 li{
+        
+        height: auto;
+        width: auto;
+        
+    } 
+    .link:hover{
+
+        color: black;
+        transform: scale(1.1);
+        transform: translate3d(15px);
+        background-color: aqua;
+        border: 3px solid black;
+        border-radius: 10px;
+        text-decoration: underline;
+        padding: 4px 10px;
+
+    }
+
+    #i1{
+       margin-left: 10px;
+        padding: 5px;
+    }
+
+    
+    #i1:hover{
+        transform: scale(1.5);
+        border: 1.6px solid aqua;
+        background-color: aqua;
+        border-radius: 4.5px;
+        padding: 2.5px;
+        color: black;
+
+    }
+
+    .foot h5:hover{
+
+        animation: rndm 1.5s ease-in 0s 1;
+        color: aqua;
+    }
+
+    @keyframes rndm {
+
+        0%{
+            transform: scale(1);
+        }
+
+        40%{
+            transform: scale(1.1);
+            color: aqua;
+        }
+        60%{
+            transform: scale(1);
+        }
+
+        80%{
+            
+            transform: translateX(-5%);
+        }
+
+        100%{
+            transform: translateX(5%);
+            transform: scale(1);
+        }
+        
+    }
+
+    .name:hover{
+
+        background-color: black;
+        color: aqua;
+        padding: 10px;
+        border: 1px solid black;
+        box-shadow: 1px 1px 1px 1px;
+        animation: motion 1.2s ease-out 0s 1;
+        transform: translate3d(60px);
+
+    }
+
+    .image:hover{
+
+        animation: zoom 1.5s ease-in 0s 1;
+
+    }
+
+    @keyframes zoom {
+
+        0%{
+            transform: scale(1);
+        }
+
+        30%{
+            transform: scale(1.1);
+        }
+
+        50%{
+            border: 3px dashed aqua;
+            border-radius: 9px;
+        }
+
+        60%{
+            border: 3px dashed aqua;
+            border-radius: 9px;
+            transform: scale(1.1);
+
+        }
+
+        
+        70%{
+            border: 3px dashed aqua;
+            border-radius: 9px;
+            transform: scale(1.1);
+
+
+        }
+        
+        
+        80%{
+            border: 3px dashed aqua;
+            border-radius: 9px;
+            transform: scale(1.1);
+
+
+        }
+
+        90%{
+            transform: scale(1);
+            border: 3px dashed aqua;
+            border-radius: 9px;
+            
+        }
+
+        100%{
+            transform: scale(1);
+            border: 3px dashed aqua;
+            border-radius: 9px;
+            
+        }
+        
+        
+        
+    }
+
+
+
+    </style>
+</head>
+<body>
+    
+<div class="container">
+
+    <div class="header">
+        <div class="websitename">
+            it's PURV
+        </div>
+
+        <div class="nav">
+            <ul class="nav1">
+                <li class="link">Home</li>
+                <li class="link">About</li>
+                <li class="link">Skills</li>
+                <li class="link">Portfolio</li>
+                <li class="link">Contact</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="content1">
+           <div class="bio">
+            <h3>Hi , I'm <span class="name">Purvesh Duble</span></h3>
+            <h4>>> Engineering Pursuing Student</h4>
+            <p>>> Motivated & Enthusiastic Computer Science 
+                <div class="f">Engineering Pursuing Student at  Acropolis Institute.</div>
+            </p>
+           </div>
+            <div class="buttons">
+                <button class="button">My works</button>
+                <button class="button">Let's Talk</button>
+            </div>
+        </div>
+
+        <div class="content2">
+            <img src="Acroimage1.jpg" alt="My image" class="image">
+        </div>
+    </div>
+
+    <div class="footer">
+       
+        <div class="foot">
+        <h5>Check out my  ->> </h5>
+        </div>
+
+       <div class="social">
+        <i class="fa fa-facebook-square" aria-hidden="true" id="i1"></i>
+        <i class="fa fa-instagram" aria-hidden="true" id="i1"></i>
+        <i class="fa fa-linkedin-square" aria-hidden="true" id="i1"></i>
+       </div>
+ 
+    </div>
+
+
+</div>
+</body>
+</html>
